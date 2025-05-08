@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ejercicio con bootstrap">
+    <meta name="autor" content="Valeria Rodríguez">
+    <title>RAMEN ¡DATEBAYO!</title>
+    <!--CDN con la hoja de estilos de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
+    <!--Hoja de estilos personalizada-->
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css"> 
+  
+  </head>
+  <body>
+ <!--Barra de navegación-->
+ <div data-bs-theme="dark">
+
+ 
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> <img src="IMG/LOGO.png" alt="LOGO"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">PROMOCIONES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                MENÚ
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="bebidas.html">BEBIDAS</a></li>
+                <li><a class="dropdown-item" href="postres.html">POSTRES</a></li>
+                <li><a class="dropdown-item" href="Suvenirs.html">SOUVENIRS</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Suvenirs.html">Y MÁS</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </div>
+<!--PORTADA-->
+<img src="IMG/bebidas.png" alt="--PORTADA--" class="portada">
+    <div class="container principal"> 
+      <div class="row">
+    <h1 class="text">¡BEBIDAS Y MÁS!</h1>
+      <p class="text">PROMOCIONES PARA TODOS Y GOZA DEL AMBIENTE</p>
+    </div>
+<!--TARJETAS MENÚ-->
+  <div class="row tarjetas-1">
+    
+    <div class="card col-sm-6 col-md-6 col-lg-6">
+      <img src="IMG/japanese-2358861_1280.jpg" class="card-img-thumbnail"  alt="RAMEN">
+      <div class="card-body">
+        <h5 class="card-title">SAKE</h5>
+        <p class="card-text">Ven y disfruta un clasico ramen de cerdo, datebayo¡</p>
+        <a href="#" class="btn btn-primary">BEBIDAS</a>
+      </div>
+  </div>
+
+  <div class="card col-sm-6 col-md-6 col-lg-6">
+    <img src="IMG/frogs-1650658_1280.jpg" class="card-img-thumbnail" alt="RAMEN">
+    <div class="card-body">
+      <h5 class="card-title">BEBIDAS TRADICIONALES</h5>
+      <p class="card-text">Disfruta de nuestras esencias</p>
+      <a href="#" class="btn btn-primary">BEBIDAS</a>
+    </div>
+    </div>
+
+    <div class="card col-sm-6 col-md-6 col-lg-6">
+      <img src="IMG/cocktail-drinks-6950673_1280.jpg" class="card-img-thumbnail" alt="RAMEN">
+      <div class="card-body">
+        <h5 class="card-title">COCTELES</h5>
+        <p class="card-text">Degusta de nuestros cocteles¡</p>
+        <a href="#" class="btn btn-primary">BEBIDAS</a>
+      </div>
+  </div>
+  <div class="card col-sm-6 col-md-6 col-lg-6">
+    <img src="IMG/wine-7467085_1280.jpg" class="card-img-thumbnail" alt="RAMEN">
+    <div class="card-body">
+      <h5 class="card-title">VINOS</h5>
+      <p class="card-text">Disfruta de nuestros vinos y promociones¡</p>
+      <a href="#" class="btn btn-primary">BEBIDAS</a>
+    </div>
+  </div>
+    
+      <div class="card col-sm-6 col-md-6 col-lg-6">
+      <img src="IMG/beers-2447512_1280.jpg" class="card-img-thumbnail" alt="RAMEN">
+      <div class="card-body">
+        <h5 class="card-title"> Y OTRAS MÁS</h5>
+        <p class="card-text">Sorprendete con nuestras bebidas para amigos y familia</p>
+        <a href="#" class="btn btn-primary">BEBIDAS</a>
+      </div>
+    </div>
+    
+</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>

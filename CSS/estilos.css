@@ -1,0 +1,33 @@
+/*Hoja de estilos personalizada*/
+
+body {
+    background-color: rgb(14, 14, 14);
+}
+.principal {
+    background-color: rgba(13, 13, 13, 0.8);
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.ej-columnas{
+    background-color: rgba(200, 200, 200, 0.9 );
+}
+.row{
+    padding: 20px 0;
+    margin-top: 10px 0;
+}
+.tarjetas-1 .card{
+    margin: 5px 0;
+
+}
+.tarjetas-1 .card img {
+    max-height: 280px;
+    object-fit: cover;
+}
+.portada {
+    width: 100%;
+    padding: 3%;
+}
+.text{
+color: aliceblue;
+}
